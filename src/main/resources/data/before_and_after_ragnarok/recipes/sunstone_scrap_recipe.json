@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "1": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "2": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "3": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "4": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "5": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "6": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "7": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    },
+    "8": {
+      "item": "before_and_after_ragnarok:sunstonepiece"
+    }
+  },
+  "result": {
+    "item": "before_and_after_ragnarok:sunstonescrap",
+    "count": 1
+  }
+}
