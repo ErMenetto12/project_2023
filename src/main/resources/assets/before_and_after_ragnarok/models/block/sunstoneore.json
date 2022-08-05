@@ -3,7 +3,7 @@
   "textures": {
     "down": "before_and_after_ragnarok:blocks/sunstone",
     "up": "before_and_after_ragnarok:blocks/sunstone",
-    "north": "before_and_after_ragnarok:blocks/stone",
+    "north": "before_and_after_ragnarok:blocks/sunstone",
     "east": "before_and_after_ragnarok:blocks/sunstone",
     "south": "before_and_after_ragnarok:blocks/sunstone",
     "west": "before_and_after_ragnarok:blocks/sunstone",

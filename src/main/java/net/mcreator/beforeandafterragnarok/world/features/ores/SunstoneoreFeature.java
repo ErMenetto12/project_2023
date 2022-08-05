@@ -46,7 +46,7 @@ public class SunstoneoreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("before_and_after_ragnarok:sunstoneore", FEATURE,
 				new OreConfiguration(SunstoneoreFeatureRuleTest.INSTANCE, BeforeAndAfterRagnarokModBlocks.SUNSTONEORE.get().defaultBlockState(), 4));
 		PLACED_FEATURE = PlacementUtils.register("before_and_after_ragnarok:sunstoneore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-40), VerticalAnchor.absolute(-20)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -55,7 +55,7 @@ public class SunstoneoreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("ice_spikes"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("frozen_ocean"), new ResourceLocation("ice_spikes"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public SunstoneoreFeature() {

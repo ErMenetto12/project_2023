@@ -5,7 +5,7 @@
     "texture": "sunstone",
     "textureTop": "sunstone",
     "textureLeft": "sunstone",
-    "textureFront": "stone",
+    "textureFront": "sunstone",
     "textureRight": "sunstone",
     "textureBack": "sunstone",
     "renderType": 10,
@@ -34,8 +34,8 @@
     ],
     "name": "Sunstone Ore",
     "specialInfo": [],
-    "hardness": 1.3,
-    "resistance": 15.0,
+    "hardness": 30.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -127,6 +127,9 @@
     "restrictionBiomes": [
       {
         "value": "mutated_ice_flats"
+      },
+      {
+        "value": "frozen_ocean"
       }
     ],
     "blocksToReplace": [
@@ -135,7 +138,7 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 2,
+    "frequencyPerChunks": 3,
     "frequencyOnChunk": 4,
     "minGenerateHeight": -40,
     "maxGenerateHeight": -20
