@@ -3,19 +3,19 @@ package net.mcreator.beforeandafterragnarok.item;
 
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.AxeItem;
 
-public class ThelostHammerItem extends AxeItem {
+public class ThelostHammerItem extends PickaxeItem {
 	public ThelostHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 102;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 11f;
+				return 10f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -33,6 +33,6 @@ public class ThelostHammerItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 1, -2.7999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
 	}
 }

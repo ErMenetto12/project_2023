@@ -10,13 +10,13 @@
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Axe",
+    "toolType": "Pickaxe",
     "harvestLevel": 1,
-    "efficiency": 11.0,
-    "attackSpeed": 1.0,
+    "efficiency": 10.0,
+    "attackSpeed": 1.2000000000000002,
     "enchantability": 0,
     "damageVsEntity": 11.5,
-    "usageCount": 102,
+    "usageCount": 500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [],
