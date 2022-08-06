@@ -31,6 +31,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescraprecipe"
+    },
+    {
+      "name": "ThelostHammer",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelost_hammer"
     }
   ],
   "variable_elements": [],
@@ -39,6 +47,7 @@
     "en_us": {
       "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
       "item.before_and_after_ragnarok.sunstonepiece": "Sunstone Piece",
+      "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
       "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
     }
   },

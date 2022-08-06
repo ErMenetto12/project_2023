@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "before_and_after_ragnarok:items/the_lost_hammer"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "the_lost_hammer",
+    "customModelName": "Normal",
+    "name": "The lost Hammer",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 0,
+    "damageVsEntity": 11.5,
+    "usageCount": 102,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true
+  }
+}
