@@ -6,5 +6,7 @@
   "block.before_and_after_ragnarok.icestone": "Icestone",
   "itemGroup.tabragnarok": "Ragnarok",
   "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-  "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
+  "item.before_and_after_ragnarok.sunstoneingot": "Sunstoneingot",
+  "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
+  "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot"
 }

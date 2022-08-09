@@ -71,6 +71,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_icestone"
+    },
+    {
+      "name": "Impuresunstoneingot",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuresunstoneingot"
+    },
+    {
+      "name": "Sunstoneingot",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunstoneingot"
+    },
+    {
+      "name": "Impuresunstoneingotrecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuresunstoneingotrecipe"
+    },
+    {
+      "name": "Puresunstoneingot",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puresunstoneingot"
     }
   ],
   "variable_elements": [],
@@ -84,7 +116,9 @@
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
       "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
+      "item.before_and_after_ragnarok.sunstoneingot": "Sunstoneingot",
+      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
+      "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot"
     }
   },
   "foldersRoot": {

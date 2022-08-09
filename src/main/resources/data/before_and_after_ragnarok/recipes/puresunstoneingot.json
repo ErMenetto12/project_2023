@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "before_and_after_ragnarok:impuresunstoneingot"
+  },
+  "addition": {
+    "item": "before_and_after_ragnarok:impuresunstoneingot"
+  },
+  "result": {
+    "item": "before_and_after_ragnarok:sunstoneingot"
+  }
+}
