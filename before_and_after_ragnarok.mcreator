@@ -39,12 +39,21 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelost_hammer"
+    },
+    {
+      "name": "Infernalstone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernalstone"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.before_and_after_ragnarok.infernalstone": "Infernalstone",
       "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
       "item.before_and_after_ragnarok.sunstonepiece": "Sunstone Piece",
       "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
