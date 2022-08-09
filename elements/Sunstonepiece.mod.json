@@ -8,7 +8,7 @@
     "name": "Sunstone Piece",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Ragnarok"
     },
     "stackSize": 64,
     "enchantability": 0,

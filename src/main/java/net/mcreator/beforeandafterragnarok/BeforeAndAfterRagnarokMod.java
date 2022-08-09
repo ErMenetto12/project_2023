@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModTabs;
 import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModItems;
 import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModFeatures;
 import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModBlocks;
@@ -44,7 +45,7 @@ public class BeforeAndAfterRagnarokMod {
 	private static int messageID = 0;
 
 	public BeforeAndAfterRagnarokMod() {
-
+		BeforeAndAfterRagnarokModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BeforeAndAfterRagnarokModBlocks.REGISTRY.register(bus);
 		BeforeAndAfterRagnarokModItems.REGISTRY.register(bus);

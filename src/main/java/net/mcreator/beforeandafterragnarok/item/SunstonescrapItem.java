@@ -5,11 +5,12 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModTabs;
 
 public class SunstonescrapItem extends Item {
 	public SunstonescrapItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).stacksTo(64).fireResistant().rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -20,13 +20,14 @@ import net.mcreator.beforeandafterragnarok.BeforeAndAfterRagnarokMod;
 
 public class BeforeAndAfterRagnarokModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BeforeAndAfterRagnarokMod.MODID);
-	public static final RegistryObject<Item> SUNSTONEORE = block(BeforeAndAfterRagnarokModBlocks.SUNSTONEORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SUNSTONEORE = block(BeforeAndAfterRagnarokModBlocks.SUNSTONEORE,
+			BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
 	public static final RegistryObject<Item> SUNSTONEPIECE = REGISTRY.register("sunstonepiece", () -> new SunstonepieceItem());
 	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
 	public static final RegistryObject<Item> THELOST_HAMMER = REGISTRY.register("thelost_hammer", () -> new ThelostHammerItem());
-	public static final RegistryObject<Item> ICESTONE = block(BeforeAndAfterRagnarokModBlocks.ICESTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ICESTONE = block(BeforeAndAfterRagnarokModBlocks.ICESTONE, BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
 	public static final RegistryObject<Item> INFERNALSTONE = block(BeforeAndAfterRagnarokModBlocks.INFERNALSTONE,
-			CreativeModeTab.TAB_BUILDING_BLOCKS);
+			BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

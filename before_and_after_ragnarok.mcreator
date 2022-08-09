@@ -55,6 +55,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernalstone"
+    },
+    {
+      "name": "Ragnarok",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ragnarok"
     }
   ],
   "variable_elements": [],

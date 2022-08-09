@@ -5,7 +5,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModTabs;
 
 public class ThelostHammerItem extends PickaxeItem {
 	public ThelostHammerItem() {
@@ -33,6 +34,6 @@ public class ThelostHammerItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -2.7999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
+		}, 1, -2.7999999999999998f, new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).fireResistant());
 	}
 }
