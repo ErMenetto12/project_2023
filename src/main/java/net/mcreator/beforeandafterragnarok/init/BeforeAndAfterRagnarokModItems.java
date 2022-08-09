@@ -24,6 +24,7 @@ public class BeforeAndAfterRagnarokModItems {
 	public static final RegistryObject<Item> SUNSTONEPIECE = REGISTRY.register("sunstonepiece", () -> new SunstonepieceItem());
 	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
 	public static final RegistryObject<Item> THELOST_HAMMER = REGISTRY.register("thelost_hammer", () -> new ThelostHammerItem());
+	public static final RegistryObject<Item> ICESTONE = block(BeforeAndAfterRagnarokModBlocks.ICESTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
