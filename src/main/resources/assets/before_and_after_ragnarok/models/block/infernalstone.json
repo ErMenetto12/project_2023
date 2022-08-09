@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "before_and_after_ragnarok:blocks/infernal_stone",
+    "up": "before_and_after_ragnarok:blocks/infernal_stone",
+    "north": "before_and_after_ragnarok:blocks/infernal_stone",
+    "east": "before_and_after_ragnarok:blocks/infernal_stone",
+    "south": "before_and_after_ragnarok:blocks/infernal_stone",
+    "west": "before_and_after_ragnarok:blocks/infernal_stone",
+    "particle": "before_and_after_ragnarok:blocks/infernal_stone"
+  }
+}
