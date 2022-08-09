@@ -27,7 +27,7 @@
     {
       "name": "Sunstonescraprecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescraprecipe"
@@ -59,7 +59,7 @@
     {
       "name": "Ragnarok",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ragnarok"
@@ -75,7 +75,7 @@
     {
       "name": "Impuresunstoneingot",
       "type": "item",
-      "sortid": 10,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impuresunstoneingot"
@@ -83,7 +83,7 @@
     {
       "name": "Sunstoneingot",
       "type": "item",
-      "sortid": 11,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstoneingot"
@@ -91,7 +91,7 @@
     {
       "name": "Impuresunstoneingotrecipe",
       "type": "recipe",
-      "sortid": 12,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impuresunstoneingotrecipe"
@@ -99,7 +99,7 @@
     {
       "name": "Puresunstoneingot",
       "type": "recipe",
-      "sortid": 13,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puresunstoneingot"
@@ -107,7 +107,7 @@
     {
       "name": "Thelosthammerbroken",
       "type": "item",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelosthammerbroken"
@@ -124,7 +124,10 @@
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
       "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
+      "item.before_and_after_ragnarok.sunstoneingot": "Sunstoneingot",
+      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
+      "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot",
+      "item.before_and_after_ragnarok.thelosthammerbroken": "The Lost Hammer Broken"
     }
   },
   "foldersRoot": {
