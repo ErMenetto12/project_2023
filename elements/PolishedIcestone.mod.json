@@ -2,12 +2,12 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "sunstone",
-    "textureTop": "sunstone",
-    "textureLeft": "sunstone",
-    "textureFront": "sunstone",
-    "textureRight": "sunstone",
-    "textureBack": "sunstone",
+    "texture": "polished_icestone",
+    "textureTop": "polished_icestone",
+    "textureLeft": "polished_icestone",
+    "textureFront": "polished_icestone",
+    "textureRight": "polished_icestone",
+    "textureBack": "polished_icestone",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Sunstone Ore",
+    "name": "Polished Icestone",
     "specialInfo": [],
-    "hardness": 30.0,
-    "resistance": 20.0,
+    "hardness": 2.2,
+    "resistance": 13.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -43,7 +43,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Sunstoneore"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -61,7 +61,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "ICE",
     "creativePickItem": {
       "value": ""
     },
@@ -70,14 +70,14 @@
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
-    "slipperiness": 0.6,
-    "speedFactor": 1.0,
+    "slipperiness": 0.7999999999999999,
+    "speedFactor": 1.1,
     "jumpFactor": 1.0,
-    "reactionToPushing": "IGNORE",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "DEEPSLATE"
+      "value": "DEEPSLATE_BRICKS"
     },
     "breakSound": {
       "value": ""
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 3,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,26 +121,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "mutated_ice_flats"
-      },
-      {
-        "value": "frozen_ocean"
-      }
-    ],
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.DEEPSLATE"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 4,
-    "minGenerateHeight": -40,
-    "maxGenerateHeight": -20
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
   }
 }

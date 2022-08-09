@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "before_and_after_ragnarok:blocks/polished_icestone",
+    "up": "before_and_after_ragnarok:blocks/polished_icestone",
+    "north": "before_and_after_ragnarok:blocks/polished_icestone",
+    "east": "before_and_after_ragnarok:blocks/polished_icestone",
+    "south": "before_and_after_ragnarok:blocks/polished_icestone",
+    "west": "before_and_after_ragnarok:blocks/polished_icestone",
+    "particle": "before_and_after_ragnarok:blocks/polished_icestone"
+  }
+}

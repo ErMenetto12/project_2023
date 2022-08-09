@@ -2,7 +2,7 @@
 package net.mcreator.beforeandafterragnarok.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -14,14 +14,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModBlocks;
-
 import java.util.List;
 import java.util.Collections;
 
-public class SunstoneoreBlock extends Block {
-	public SunstoneoreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(30f, 20f).requiresCorrectToolForDrops());
+public class PolishedIcestoneBlock extends Block {
+	public PolishedIcestoneBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.ICE).sound(SoundType.DEEPSLATE_BRICKS).strength(2.2f, 13f)
+				.requiresCorrectToolForDrops().friction(0.7999999999999999f).speedFactor(1.1f));
 	}
 
 	@Override
@@ -30,14 +29,9 @@ public class SunstoneoreBlock extends Block {
 	}
 
 	@Override
-	public PushReaction getPistonPushReaction(BlockState state) {
-		return PushReaction.IGNORE;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 3;
+			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
 
@@ -46,6 +40,6 @@ public class SunstoneoreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(BeforeAndAfterRagnarokModBlocks.SUNSTONEORE.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }
