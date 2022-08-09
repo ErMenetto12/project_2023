@@ -11,7 +11,7 @@
     {
       "name": "Sunstonepiece",
       "type": "item",
-      "sortid": 4,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonepiece"
@@ -19,7 +19,7 @@
     {
       "name": "Sunstonescrap",
       "type": "item",
-      "sortid": 5,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescrap"
@@ -27,7 +27,7 @@
     {
       "name": "Sunstonescraprecipe",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescraprecipe"
@@ -35,7 +35,7 @@
     {
       "name": "ThelostHammer",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelost_hammer"
@@ -51,7 +51,7 @@
     {
       "name": "Infernalstone",
       "type": "block",
-      "sortid": 3,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernalstone"
@@ -59,10 +59,18 @@
     {
       "name": "Ragnarok",
       "type": "tab",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ragnarok"
+    },
+    {
+      "name": "PolishedIcestone",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_icestone"
     }
   ],
   "variable_elements": [],
@@ -75,6 +83,7 @@
       "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
+      "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
       "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
     }
   },

@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class InfernalstoneBlock extends Block {
 	public InfernalstoneBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BASALT).strength(5f, 12f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BASALT).strength(10f, 15f));
 	}
 
 	@Override
