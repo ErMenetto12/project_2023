@@ -27,7 +27,7 @@
     {
       "name": "Sunstonescraprecipe",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescraprecipe"
@@ -35,7 +35,7 @@
     {
       "name": "ThelostHammer",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelost_hammer"
@@ -59,7 +59,7 @@
     {
       "name": "Ragnarok",
       "type": "tab",
-      "sortid": 9,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ragnarok"
@@ -71,6 +71,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_icestone"
+    },
+    {
+      "name": "Thelosthammerbroken",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelosthammerbroken"
     }
   ],
   "variable_elements": [],
@@ -84,7 +92,8 @@
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
       "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
+      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
+      "item.before_and_after_ragnarok.thelosthammerbroken": "The Lost Hammer Broken"
     }
   },
   "foldersRoot": {

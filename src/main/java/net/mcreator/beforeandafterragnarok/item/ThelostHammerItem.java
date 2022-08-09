@@ -12,7 +12,7 @@ public class ThelostHammerItem extends PickaxeItem {
 	public ThelostHammerItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 500;
+				return 32;
 			}
 
 			public float getSpeed() {
@@ -20,11 +20,11 @@ public class ThelostHammerItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 9.5f;
+				return 8f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
@@ -34,6 +34,6 @@ public class ThelostHammerItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 1, -2.7999999999999998f, new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).fireResistant());
+		}, 1, -3f, new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).fireResistant());
 	}
 }
