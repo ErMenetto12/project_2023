@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class SunstoneoreBlock extends Block {
 	public SunstoneoreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.DEEPSLATE).strength(30f, 20f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(30f, 20f).requiresCorrectToolForDrops());
 	}
 
 	@Override

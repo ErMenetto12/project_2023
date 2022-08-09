@@ -103,6 +103,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "puresunstoneingot"
+    },
+    {
+      "name": "Thelosthammerbroken",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelosthammerbroken"
     }
   ],
   "variable_elements": [],
@@ -116,9 +124,7 @@
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
       "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-      "item.before_and_after_ragnarok.sunstoneingot": "Sunstoneingot",
-      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
-      "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot"
+      "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap"
     }
   },
   "foldersRoot": {

@@ -34,14 +34,14 @@
     ],
     "name": "Infernalstone",
     "specialInfo": [],
-    "hardness": 10.0,
-    "resistance": 15.0,
+    "hardness": 3.0,
+    "resistance": 12.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:Ragnarok"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.beforeandafterragnarok.item.ThelosthammerbrokenItem;
 import net.mcreator.beforeandafterragnarok.item.ThelostHammerItem;
 import net.mcreator.beforeandafterragnarok.item.SunstonescrapItem;
 import net.mcreator.beforeandafterragnarok.item.SunstonepieceItem;
@@ -32,6 +33,7 @@ public class BeforeAndAfterRagnarokModItems {
 	public static final RegistryObject<Item> SUNSTONEPIECE = REGISTRY.register("sunstonepiece", () -> new SunstonepieceItem());
 	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
 	public static final RegistryObject<Item> THELOST_HAMMER = REGISTRY.register("thelost_hammer", () -> new ThelostHammerItem());
+	public static final RegistryObject<Item> THELOSTHAMMERBROKEN = REGISTRY.register("thelosthammerbroken", () -> new ThelosthammerbrokenItem());
 	public static final RegistryObject<Item> IMPURESUNSTONEINGOT = REGISTRY.register("impuresunstoneingot", () -> new ImpuresunstoneingotItem());
 	public static final RegistryObject<Item> SUNSTONEINGOT = REGISTRY.register("sunstoneingot", () -> new SunstoneingotItem());
 
