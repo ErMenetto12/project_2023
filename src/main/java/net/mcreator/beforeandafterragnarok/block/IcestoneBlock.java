@@ -20,7 +20,7 @@ import java.util.Collections;
 public class IcestoneBlock extends Block {
 	public IcestoneBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.ICE).sound(SoundType.POLISHED_DEEPSLATE).strength(1.3f, 12.5f)
-				.requiresCorrectToolForDrops().friction(1.5f).speedFactor(1.2000000000000002f));
+				.requiresCorrectToolForDrops().friction(0.7f).speedFactor(1.0999999999999999f));
 	}
 
 	@Override
