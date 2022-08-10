@@ -11,7 +11,7 @@
     {
       "name": "Sunstonepiece",
       "type": "item",
-      "sortid": 5,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonepiece"
@@ -19,7 +19,7 @@
     {
       "name": "Sunstonescrap",
       "type": "item",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sunstonescrap"
@@ -35,7 +35,7 @@
     {
       "name": "ThelostHammer",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelost_hammer"
@@ -43,7 +43,7 @@
     {
       "name": "Icestone",
       "type": "block",
-      "sortid": 2,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "icestone"
@@ -51,7 +51,7 @@
     {
       "name": "Infernalstone",
       "type": "block",
-      "sortid": 4,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infernalstone"
@@ -67,7 +67,7 @@
     {
       "name": "PolishedIcestone",
       "type": "block",
-      "sortid": 3,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "polished_icestone"
@@ -91,7 +91,7 @@
     {
       "name": "Thelosthammerbroken",
       "type": "item",
-      "sortid": 8,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelosthammerbroken"
@@ -99,7 +99,7 @@
     {
       "name": "Puresunstoneingoti",
       "type": "item",
-      "sortid": 15,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "puresunstoneingoti"
@@ -107,7 +107,7 @@
     {
       "name": "Impuresunstoneingot",
       "type": "item",
-      "sortid": 16,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "impuresunstoneingot"
