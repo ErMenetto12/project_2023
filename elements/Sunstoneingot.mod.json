@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "sunstone_ingot",
     "customModelName": "Normal",
-    "name": "Sunstoneingot",
+    "name": "Sunstone ingot",
     "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "CUSTOM:Ragnarok"
