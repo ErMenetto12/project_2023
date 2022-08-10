@@ -111,22 +111,39 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "impuresunstoneingot"
+    },
+    {
+      "name": "Sunstoneingot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunstoneingot"
+    },
+    {
+      "name": "Sunstonerecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunstonerecipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.before_and_after_ragnarok.infernalstone": "Infernalstone",
-      "item.before_and_after_ragnarok.puresunstoneingoti": "Pure Sunstone Ingot",
-      "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
-      "item.before_and_after_ragnarok.sunstonepiece": "Sunstone Piece",
-      "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
       "block.before_and_after_ragnarok.icestone": "Icestone",
-      "itemGroup.tabragnarok": "Ragnarok",
-      "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
       "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
       "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot",
+      "block.before_and_after_ragnarok.infernalstone": "Infernalstone",
+      "item.before_and_after_ragnarok.puresunstoneingoti": "Pure Sunstone Ingot",
+      "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
+      "item.before_and_after_ragnarok.sunstonepiece": "Sunstone Piece",
+      "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
+      "itemGroup.tabragnarok": "Ragnarok",
+      "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
+      "item.before_and_after_ragnarok.sunstoneingot": "Sunstone_Ingot",
       "item.before_and_after_ragnarok.thelosthammerbroken": "The Lost Hammer Broken"
     }
   },

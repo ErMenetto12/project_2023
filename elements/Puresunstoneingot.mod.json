@@ -12,7 +12,7 @@
       "value": "CUSTOM:Impuresunstoneingot"
     },
     "smithingInputAdditionStack": {
-      "value": "CUSTOM:Impuresunstoneingot"
+      "value": "Items.DIAMOND"
     },
     "smithingReturnStack": {
       "value": "CUSTOM:Puresunstoneingoti"

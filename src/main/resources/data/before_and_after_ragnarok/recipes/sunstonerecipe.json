@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 25,
+  "cookingtime": 150,
+  "ingredient": {
+    "item": "before_and_after_ragnarok:puresunstoneingoti"
+  },
+  "result": "before_and_after_ragnarok:sunstoneingot"
+}
