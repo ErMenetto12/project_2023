@@ -3,8 +3,8 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Blasting",
-    "xpReward": 25.0,
-    "cookingTime": 150,
+    "xpReward": 35.0,
+    "cookingTime": 350,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,

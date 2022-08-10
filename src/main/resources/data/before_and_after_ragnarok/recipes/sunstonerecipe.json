@@ -1,7 +1,7 @@
 {
   "type": "minecraft:blasting",
-  "experience": 25,
-  "cookingtime": 150,
+  "experience": 35,
+  "cookingtime": 350,
   "ingredient": {
     "item": "before_and_after_ragnarok:puresunstoneingoti"
   },
