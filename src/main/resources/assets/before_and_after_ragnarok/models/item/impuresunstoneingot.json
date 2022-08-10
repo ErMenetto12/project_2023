@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "before_and_after_ragnarok:items/mixed_sunstone_ingot"
+  }
+}
