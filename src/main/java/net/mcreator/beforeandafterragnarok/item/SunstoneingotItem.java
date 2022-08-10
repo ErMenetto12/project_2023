@@ -9,7 +9,7 @@ import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModTabs;
 
 public class SunstoneingotItem extends Item {
 	public SunstoneingotItem() {
-		super(new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

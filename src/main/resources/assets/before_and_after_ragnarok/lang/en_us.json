@@ -1,7 +1,7 @@
 {
   "block.before_and_after_ragnarok.icestone": "Icestone",
   "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
-  "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot",
+  "item.before_and_after_ragnarok.impuresunstoneingot": "Impure Sunstone Ingot",
   "block.before_and_after_ragnarok.infernalstone": "Infernalstone",
   "item.before_and_after_ragnarok.puresunstoneingoti": "Pure Sunstone Ingot",
   "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
@@ -9,6 +9,6 @@
   "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
   "itemGroup.tabragnarok": "Ragnarok",
   "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-  "item.before_and_after_ragnarok.sunstoneingot": "Sunstone_Ingot",
+  "item.before_and_after_ragnarok.sunstoneingot": "Sunstone Ingot",
   "item.before_and_after_ragnarok.thelosthammerbroken": "The Lost Hammer Broken"
 }
