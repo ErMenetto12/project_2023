@@ -23,13 +23,13 @@ public class BeforeAndAfterRagnarokModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, BeforeAndAfterRagnarokMod.MODID);
 	public static final RegistryObject<Item> SUNSTONEORE = block(BeforeAndAfterRagnarokModBlocks.SUNSTONEORE,
 			BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
-	public static final RegistryObject<Item> SUNSTONEPIECE = REGISTRY.register("sunstonepiece", () -> new SunstonepieceItem());
-	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
+	public static final RegistryObject<Item> ICESTONE = block(BeforeAndAfterRagnarokModBlocks.ICESTONE, BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
 	public static final RegistryObject<Item> POLISHED_ICESTONE = block(BeforeAndAfterRagnarokModBlocks.POLISHED_ICESTONE,
 			BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
 	public static final RegistryObject<Item> INFERNALSTONE = block(BeforeAndAfterRagnarokModBlocks.INFERNALSTONE,
 			BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
-	public static final RegistryObject<Item> ICESTONE = block(BeforeAndAfterRagnarokModBlocks.ICESTONE, BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK);
+	public static final RegistryObject<Item> SUNSTONEPIECE = REGISTRY.register("sunstonepiece", () -> new SunstonepieceItem());
+	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
 	public static final RegistryObject<Item> THELOSTHAMMERBROKEN = REGISTRY.register("thelosthammerbroken", () -> new ThelosthammerbrokenItem());
 	public static final RegistryObject<Item> THELOST_HAMMER = REGISTRY.register("thelost_hammer", () -> new ThelostHammerItem());
 
