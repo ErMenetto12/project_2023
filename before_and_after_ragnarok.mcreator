@@ -73,22 +73,6 @@
       "registry_name": "polished_icestone"
     },
     {
-      "name": "Impuresunstoneingot",
-      "type": "item",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "impuresunstoneingot"
-    },
-    {
-      "name": "Sunstoneingot",
-      "type": "item",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sunstoneingot"
-    },
-    {
       "name": "Impuresunstoneingotrecipe",
       "type": "recipe",
       "sortid": 13,
@@ -111,6 +95,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thelosthammerbroken"
+    },
+    {
+      "name": "Puresunstoneingoti",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puresunstoneingoti"
+    },
+    {
+      "name": "Impuresunstoneingot",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuresunstoneingot"
     }
   ],
   "variable_elements": [],
@@ -118,15 +118,15 @@
   "language_map": {
     "en_us": {
       "block.before_and_after_ragnarok.infernalstone": "Infernalstone",
+      "item.before_and_after_ragnarok.puresunstoneingoti": "Pure Sunstone Ingot",
       "block.before_and_after_ragnarok.sunstoneore": "Sunstone Ore",
       "item.before_and_after_ragnarok.sunstonepiece": "Sunstone Piece",
       "item.before_and_after_ragnarok.thelost_hammer": "The lost Hammer",
       "block.before_and_after_ragnarok.icestone": "Icestone",
       "itemGroup.tabragnarok": "Ragnarok",
       "block.before_and_after_ragnarok.polished_icestone": "Polished Icestone",
-      "item.before_and_after_ragnarok.sunstoneingot": "Sunstone ingot",
       "item.before_and_after_ragnarok.sunstonescrap": "Sunstone Scrap",
-      "item.before_and_after_ragnarok.impuresunstoneingot": "Impure sunstone ingot",
+      "item.before_and_after_ragnarok.impuresunstoneingot": "Impuresunstoneingot",
       "item.before_and_after_ragnarok.thelosthammerbroken": "The Lost Hammer Broken"
     }
   },

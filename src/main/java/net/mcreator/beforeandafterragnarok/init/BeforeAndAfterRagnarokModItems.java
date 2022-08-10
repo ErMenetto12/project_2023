@@ -17,6 +17,8 @@ import net.mcreator.beforeandafterragnarok.item.ThelosthammerbrokenItem;
 import net.mcreator.beforeandafterragnarok.item.ThelostHammerItem;
 import net.mcreator.beforeandafterragnarok.item.SunstonescrapItem;
 import net.mcreator.beforeandafterragnarok.item.SunstonepieceItem;
+import net.mcreator.beforeandafterragnarok.item.PuresunstoneingotiItem;
+import net.mcreator.beforeandafterragnarok.item.ImpuresunstoneingotItem;
 import net.mcreator.beforeandafterragnarok.BeforeAndAfterRagnarokMod;
 
 public class BeforeAndAfterRagnarokModItems {
@@ -32,6 +34,8 @@ public class BeforeAndAfterRagnarokModItems {
 	public static final RegistryObject<Item> SUNSTONESCRAP = REGISTRY.register("sunstonescrap", () -> new SunstonescrapItem());
 	public static final RegistryObject<Item> THELOSTHAMMERBROKEN = REGISTRY.register("thelosthammerbroken", () -> new ThelosthammerbrokenItem());
 	public static final RegistryObject<Item> THELOST_HAMMER = REGISTRY.register("thelost_hammer", () -> new ThelostHammerItem());
+	public static final RegistryObject<Item> PURESUNSTONEINGOTI = REGISTRY.register("puresunstoneingoti", () -> new PuresunstoneingotiItem());
+	public static final RegistryObject<Item> IMPURESUNSTONEINGOT = REGISTRY.register("impuresunstoneingot", () -> new ImpuresunstoneingotItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

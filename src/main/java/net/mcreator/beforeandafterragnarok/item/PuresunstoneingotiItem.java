@@ -8,8 +8,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.beforeandafterragnarok.init.BeforeAndAfterRagnarokModTabs;
 
-public class ImpuresunstoneingotItem extends Item {
-	public ImpuresunstoneingotItem() {
+public class PuresunstoneingotiItem extends Item {
+	public PuresunstoneingotiItem() {
 		super(new Item.Properties().tab(BeforeAndAfterRagnarokModTabs.TAB_RAGNAROK).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
